@@ -133,6 +133,7 @@ header a {
     transform: translate(-50%, -50%);
     color: black;
     font-size: 16px;
+    font-weight: 700;
     display: none;
     text-align: center;
 }
@@ -174,6 +175,7 @@ header a {
     display: flex;
     justify-content: center;
     gap: 20px;
+    align-items: center;
 }
 
 .about-img {
@@ -224,6 +226,7 @@ header a {
 
 .about-text p {
     line-height: 24px;
+    font-size: 16px;
 }
 
 #projects {
@@ -251,7 +254,7 @@ header a {
 }
 
 .projects-container img {
-    width: 60%;
+    width: 64%;
 }
 
 .project-title {
@@ -345,7 +348,7 @@ header a {
 .contact-icons {
     display: flex;
     flex-wrap: wrap;
-    gap: 8rem;
+    gap: 6rem;
     margin-top: 1rem;
 }
 
@@ -376,4 +379,43 @@ header a {
 
 .contact-box p {
     font-size: 1.3rem;
+}
+
+.fa-regular, .fa-solid {
+    color: orange;
+}
+
+@media (max-width: 670px) {
+
+}
+
+@media (max-width: 690px) {
+    .contact-container {
+        padding: 0 5rem;
+    }
+}
+
+@media (max-width: 860px) {
+    .img-container {
+        padding: 0 2rem;
+        align-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .projects-container {
+        flex-wrap: wrap;
+    }
+
+    .container {
+        flex-direction: column-reverse;
+    }
+
+    .container-img {
+        align-self: center;
+    }
+
+    .card-container {
+        padding: 2rem 0;
+    }
 }
