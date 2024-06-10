@@ -438,7 +438,8 @@ footer {
 }
 
 .footer-container div {
-    align-content: center;
+    display: flex;
+    gap: 12px;
     font-size: 18px;
     color: white;
 }
