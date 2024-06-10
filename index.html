@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <title>Portfolio</title>
     <link href="css/styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe924a0d6e.js" crossorigin="anonymous"></script>
     <script src="js/script.js" defer></script>
 </head>
 
@@ -11,28 +15,170 @@
 
 <header>
     <div>
-        <span>
-            TomChrister.dev
+        <span class="name">
+            TomChrister
         </span>
     </div>
     <div>
         <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </div>
 </header>
 
+
 <section id="home" class="section">
     <div class="container">
         <div class="main">
-            <h1 class="title">Front-End JavaScript<br> Developer  <img src="assets/images/waving2.png" alt="waving"></h1>
-            <p>Hello, I'm Tom Christer Schöön. A Front-end Developer<br> based in Oslo, Norway📍</p>
+            <h1 class="title">Front-End JavaScript<br> Developer  <img class="waving" src="assets/images/waving2.png" alt="waving"></h1>
+            <p>Hello, I'm Tom Christer Schöön. A Front-end Developer<br> based in Oslo, Norway.📍<br></p>
+            <div class="icons">
+                <a href="https://www.linkedin.com/in/tom-christer-sch%C3%B6%C3%B6n-bb8ab1226/"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
+                </span>
+                </a>
+                <a href="https://github.com/TomChrister"><span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                </span>
+                </a>
+            </div>
+            <div class="tech">
+                <span class="tech-stack">Tech stack</span>
+                <span class="tech-space">|</span>
+                    <ul>
+                        <li>
+                            <span class="tech-name">HTML</span>
+                            <img src="assets/logos/HTML.svg" alt="html">
+                        </li>
+                        <li>
+                            <span class="tech-name">CSS</span>
+                            <img src="assets/logos/CSS.svg" alt="css">
+                        </li>
+                        <li>
+                            <span class="tech-name">JavaScript</span>
+                            <img src="assets/logos/JavaScript.svg" alt="javascript">
+                        </li>
+                        <li>
+                            <span class="tech-name">Figma</span>
+                            <img src="assets/logos/Figma-Dark.svg" alt="figma">
+                        </li>
+                    </ul>
+            </div>
+            <div class="tech">
+                <span class="currently">Currently learning</span>
+                <span class="currently-space">|</span>
+                <ul>
+                    <li>
+                        <span class="tech-name">React</span>
+                        <img src="assets/logos/React-Dark.svg" alt="react">
+                    </li>
+                    <li>
+                        <span class="tech-name">Tailwind</span>
+                        <img src="assets/logos/TailwindCSS-Dark.svg" alt="tailwind">
+                    </li>
+                </ul>
+            </div>
         </div>
         <div class="container-img">
             <img src="assets/images/file%20(1).png" alt="photo">
+        </div>
+    </div>
+</section>
+
+<section id="about" class="">
+    <div class="about-container">
+        <div>
+            <img class="about-img" src="assets/images/pc.jpg" alt="pc">
+        </div>
+        <div class="about-text">
+            <h3>ABOUT ME</h3>
+            <h4>Front-End Developer <br>Based in Oslo, Norway.📍</h4>
+            <p>Hey, my name is Tom Christer and I'm a Front-End Developer on the way!<br>
+            I got a bachelor as a teacher, and are now studying at<br> Noroff School of Technology and Digital Media.
+            <br>
+            <br>
+            I'm currently learning React/Next.js together with Tailwind CSS.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section id="projects">
+    <h1>Projects</h1>
+    <div class="projects-container">
+        <div class="card-container">
+            <span class="project-title">Techpulse</span>
+            <img src="assets/images/techpulse.png" alt="techpulse">
+            <div class="card-text">
+                <p>Semester project for front end development Q4.
+                A technology blog that has articles about the latest in technology.
+                As a logged in user you can create, edit and delete posts.
+                <br>
+                <br>
+                Technology used: HTML, CSS and JavaScript</p>
+                <div class="buttons">
+                    <button class="btn-hover"><a href="https://techpulse-blogproject.vercel.app/" target="_blank">Live site</a></button>
+                    <button class="btn-hover"><a href="https://github.com/TomChrister/blog-project" target="_blank">Repo</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <span class="project-title">Square Eyes</span>
+            <img src="assets/images/square-eyes.png" alt="square-eyes">
+            <div class="card-text">
+                <p>A website for buying movies. Here you are able to filter movies by genre
+                and adding movies to the cart and getting a confirmation at the checkout.
+                <br>
+                <br>
+                <br>
+                Technology used: HTML, CSS and JavaScript</p>
+                <div class="buttons">
+                    <button class="btn-hover"><a href="https://javascript-ca.vercel.app/" target="_blank">Live site</a></button>
+                    <button class="btn-hover"><a href="https://github.com/TomChrister/javascript-ca" target="_blank">Repo</a></button>
+                </div>
+            </div>
+        </div>
+        <div class="card-container">
+            <span class="project-title">Galaxy Genius Museum</span>
+            <img src="assets/images/galaxy.png" alt="galaxy">
+            <div class="card-text">
+                <p>This website is a science museum primarily for kids and teenagers. Here you can
+                browse what exhibitions you want to see and learn more about science.
+                <br>
+                <br>
+                <br>
+                Technology used: HTML, CSS and Javascript.</p>
+                <div class="buttons">
+                    <button class="btn-hover"><a href="https://gleeful-daffodil-25334b.netlify.app/" target="_blank">Live site</a></button>
+                    <button class="btn-hover"><a href="https://github.com/TomChrister/Semester-Project-Q4" target="_blank">Repo</a></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <div class="contact-container">
+        <div class="content">
+            <div class="contact-title">
+                <p>Contact</p>
+                <h3>Hit me up!</h3>
+            </div>
+        </div>
+        <div class="contact-icons">
+            <div class="contact-box">
+                <div class="contact-info">
+                    <h3>Location</h3>
+                    <p>📍 Oslo, Norway</p>
+                </div>
+            </div>
+            <div class="contact-box">
+                <h3>Mail</h3>
+                <p>📧 tomchristerschoon@gmail.com</p>
+            </div>
         </div>
     </div>
 </section>
