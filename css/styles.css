@@ -23,6 +23,7 @@ header {
     align-items: center;
     border-bottom: 1px solid;
     padding: 0 60px 0 60px;
+    filter: drop-shadow(2px 1px 5px gray);
 }
 
 header ul {
@@ -32,7 +33,7 @@ header ul {
 }
 
 header ul li:hover {
-    opacity: 0.5;
+    color: blue;
     transition: 0.2s;
 }
 
@@ -226,7 +227,7 @@ header a {
 
 .about-text p {
     line-height: 24px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 #projects {
@@ -254,7 +255,7 @@ header a {
 }
 
 .projects-container img {
-    width: 64%;
+    width: 70%;
 }
 
 .project-title {
@@ -357,6 +358,11 @@ header a {
     flex-direction: column;
 }
 
+.contact-box a {
+    text-decoration: none;
+    color: inherit;
+}
+
 .contact-info {
     display: flex;
     flex-direction: column;
@@ -418,4 +424,29 @@ header a {
     .card-container {
         padding: 2rem 0;
     }
+}
+
+footer {
+    height: 100px;
+    background-color: #464646;
+    align-content: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-container div {
+    align-content: center;
+    font-size: 18px;
+    color: white;
+}
+
+.footer-icons a {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    gap: 12px;
+}
 }
