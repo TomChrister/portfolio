@@ -442,6 +442,7 @@ footer {
     gap: 12px;
     font-size: 18px;
     color: white;
+    align-items: center;
 }
 
 .footer-icons a {
@@ -449,5 +450,4 @@ footer {
     color: white;
     display: flex;
     gap: 12px;
-}
 }
