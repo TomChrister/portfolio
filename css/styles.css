@@ -124,7 +124,6 @@ header a {
 .tech ul li img {
     width: 3rem;
     display: block;
-    cursor: pointer;
 }
 
 .tech ul li .tech-name {
