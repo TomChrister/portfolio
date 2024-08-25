@@ -254,7 +254,8 @@ header a {
 }
 
 .projects-container img {
-    width: 70%;
+    width: 36vw;
+    min-width: 464px;
 }
 
 .project-title {
