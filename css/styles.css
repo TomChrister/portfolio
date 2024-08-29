@@ -243,7 +243,7 @@ header a {
 
 .projects-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: nowrap;
 }
 
@@ -254,8 +254,10 @@ header a {
 }
 
 .projects-container img {
-    width: 36vw;
-    min-width: 464px;
+    width: 84%;
+    max-width: 400px;
+    height: 200px;
+    object-fit: contain;
 }
 
 .project-title {
@@ -316,6 +318,8 @@ header a {
 }
 
 .card-text p {
+    width: 26vw;
+    align-self: center;
     line-height: 24px;
 }
 
