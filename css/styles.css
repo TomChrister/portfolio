@@ -395,8 +395,27 @@ header a {
     color: orange;
 }
 
-@media (max-width: 670px) {
+@media (max-width: 500px) {
+    .projects-container {
+        flex-direction: column;
+    }
 
+    .projects-container img {
+        width: 100%;
+        height: 192px;
+    }
+
+    .card-text p {
+        width: auto;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .tech-stack, .currently, .main p {
+        font-size: 2rem;
+    }
 }
 
 @media (max-width: 690px) {
