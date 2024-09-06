@@ -33,7 +33,7 @@ header ul {
 }
 
 header ul li:hover {
-    color: blue;
+    color: orange;
     transition: 0.2s;
 }
 
@@ -48,7 +48,7 @@ header a {
 }
 
 .section {
-    padding: 6rem 0 5rem 0;
+    padding: 6rem 0 2rem 0;
     background-color: rgba(211, 211, 211, 0.2);
 }
 
@@ -56,7 +56,7 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem 0;
+    padding: 5rem 0;
 }
 
 .main {
@@ -72,13 +72,14 @@ header a {
 }
 
 .icons {
-    padding: 0 0 18px 0;
+    display: flex;
+    gap: 0.5em;
 }
 
 .main p {
     font-size: 20px;
     display: flex;
-    margin: 28px 0 16px 0;
+    margin: 1.5rem 0;
 }
 
 .main a {
@@ -91,22 +92,14 @@ header a {
     transition: ease-in-out 0.2s;
 }
 
-.waving {
-    height: 3rem;
-    position: absolute;
-    right: 13rem;
-    top: 5rem;
-    width: 3rem;
-}
-
 .container-img img {
-    width: 320px;
+    width: 272px;
 }
 
 .tech {
     display: flex;
     align-items: center;
-    padding: 30px 0;
+    padding: 30px 0 22px 0;
 }
 
 .tech ul {
@@ -164,11 +157,12 @@ header a {
 
 .container-img {
     display: flex;
-    align-self: flex-start;
+    align-self: center;
+    padding: 0 3rem;
 }
 
 #about {
-    padding: 10rem 0;
+    padding: 12rem 0;
 }
 
 .about-container {
@@ -188,17 +182,13 @@ header a {
     align-content: center;
 }
 
-.about-text h3,
-.about-text h4,
-.about-text p {
+.about-text h3, .about-text h4, .about-text p {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 2s ease, transform 1.5s ease;
 }
 
-.about-text h3.slide-in,
-.about-text h4.slide-in,
-.about-text p.slide-in {
+.about-text h3.slide-in, .about-text h4.slide-in, .about-text p.slide-in {
     opacity: 1;
     transform: translateY(0);
 }
@@ -231,10 +221,11 @@ header a {
 
 #projects {
     background-color: rgba(211, 211, 211, 0.2);
-    padding: 8rem 0;
+    padding: 5rem 0;
 }
 
 #projects h1 {
+    color: orange;
     display: flex;
     justify-content: center;
     font-size: 3rem;
@@ -395,6 +386,92 @@ header a {
     color: orange;
 }
 
+@media (max-width: 500px) {
+    header {
+        padding: 0 1rem;
+    }
+
+    header ul li, .name {
+        font-size: 16px;
+        font-weight: 900;
+    }
+
+    .title {
+        font-size: 2rem;
+        align-self: center;
+        padding: 1rem 4rem 0;
+    }
+
+    .tech-space, .currently-space {
+        display: none;
+        padding: 0;
+    }
+
+    .tech-stack, .currently {
+        padding: 0;
+    }
+
+    .tech {
+        display: block;
+        align-self: center;
+    }
+
+    .tech ul {
+        padding: 1.5rem 0 0 0;
+    }
+
+    .container {
+        padding: 0;
+    }
+
+    .container-img img {
+        width: 184px;
+    }
+
+    .icons {
+        padding: 0 4rem;
+    }
+
+    .main p {
+        margin: 1.5rem 4rem;
+    }
+
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-text {
+        padding: 0 2em;
+    }
+
+    .about-text h4 {
+        font-size: 26px;
+    }
+
+    #about {
+        padding: 5rem 0;
+    }
+
+    br {
+     display: none;
+    }
+
+    #projects h1 {
+        margin: 0 0 1rem 0;
+    }
+
+    .card-text {
+        padding: 0 2.5rem;
+    }
+
+    .card-text p {
+        width: auto;
+    }
+
+    .contact-icons {
+        gap: 2rem;
+    }
+}
 
 @media (max-width: 690px) {
     .contact-container {
@@ -405,7 +482,12 @@ header a {
 @media (max-width: 860px) {
     .img-container {
         padding: 0 2rem;
-        align-content: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-container img {
+        width: 88%;
     }
 }
 
@@ -452,4 +534,3 @@ footer {
     display: flex;
     gap: 12px;
 }
-
