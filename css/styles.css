@@ -226,8 +226,7 @@ header a {
 
 .github {
     display: flex;
-    width: 100%;
-    max-width: 50%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -483,6 +482,10 @@ header a {
 
     .contact-icons {
         gap: 2rem;
+    }
+
+    .chart {
+        margin: 1em 0 1em 0;
     }
 }
 
