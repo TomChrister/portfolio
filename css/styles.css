@@ -224,12 +224,24 @@ header a {
     padding: 5rem 0;
 }
 
+.github {
+    display: flex;
+    width: 100%;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.chart {
+    text-align: center;
+    margin: 1em 0 3rem 0;
+}
+
 #projects h1 {
     color: orange;
     display: flex;
     justify-content: center;
     font-size: 3rem;
-    margin: 0 0 5rem 0;
+    margin: 0 0 2rem 0;
 }
 
 .projects-container {
