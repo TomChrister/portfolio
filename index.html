@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>🚀 TCS.dev Portfolio</title>
-    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="dist/output.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
@@ -36,44 +36,70 @@
             <p>Hello, I'm Tom Christer Schöön. A Front-end Developer<br> based in Oslo, Norway.📍<br></p>
             <div class="icons">
                 <a href="https://www.linkedin.com/in/tom-christer-sch%C3%B6%C3%B6n-bb8ab1226/" target="_blank"><span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="tabler-icon tabler-icon-brand-linkedin"><path
+                            d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path
+                            d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path
+                            d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
                 </span>
                 </a>
                 <a href="https://github.com/TomChrister" target="_blank"><span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="tabler-icon tabler-icon-brand-github"><path
+                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
                 </span>
                 </a>
             </div>
             <div class="tech">
                 <span class="tech-stack">Tech stack</span>
                 <span class="tech-space">|</span>
-                    <ul>
-                        <li>
-                            <span class="tech-name">HTML</span>
-                            <img src="assets/logos/HTML.svg" alt="html">
-                        </li>
-                        <li>
-                            <span class="tech-name">CSS</span>
-                            <img src="assets/logos/CSS.svg" alt="css">
-                        </li>
-                        <li>
-                            <span class="tech-name">JavaScript</span>
-                            <img src="assets/logos/JavaScript.svg" alt="javascript">
-                        </li>
-                        <li>
-                            <span class="tech-name">Tailwind</span>
-                            <img src="assets/logos/TailwindCSS-Dark.svg" alt="tailwind">
-                        </li>
-                        <li>
-                            <span class="tech-name">Figma</span>
-                            <img src="assets/logos/Figma-Dark.svg" alt="figma">
-                        </li>
-                    </ul>
+                <ul class="grid grid-cols-4 gap-8">
+                    <li>
+                        <span class="tech-name">HTML</span>
+                        <img src="assets/logos/HTML.svg" alt="html">
+                    </li>
+                    <li>
+                        <span class="tech-name">CSS</span>
+                        <img src="assets/logos/CSS.svg" alt="css">
+                    </li>
+                    <li>
+                        <span class="tech-name">JavaScript</span>
+                        <img src="assets/logos/JavaScript.svg" alt="javascript">
+                    </li>
+                    <li>
+                        <span class="tech-name">Tailwind</span>
+                        <img src="assets/logos/TailwindCSS-Dark.svg" alt="tailwind">
+                    </li>
+                </ul>
+            </div>
+            <div class="tech">
+                <span class="tools">Tools & platforms</span>
+                <span class="tools-space hidden lg:block">|</span>
+                <ul class="grid grid-cols-4 gap-8">
+                    <li>
+                        <span class="tech-name">Figma</span>
+                        <img src="assets/logos/Figma-Dark.svg" alt="figma">
+                    </li>
+                    <li>
+                        <span class="tech-name">Vite</span>
+                        <img src="assets/logos/Vite-Dark.svg" alt="vite">
+                    </li>
+                    <li>
+                        <span class="tech-name">Npm</span>
+                        <img src="assets/logos/Npm-Dark.svg" alt="npm">
+                    </li>
+                    <li>
+                        <span class="tech-name">Git</span>
+                        <img src="assets/logos/Git.svg" alt="git">
+                    </li>
+                </ul>
             </div>
             <div class="tech">
                 <span class="currently">Currently learning</span>
                 <span class="currently-space">|</span>
-                <ul>
+                <ul class="grid grid-cols-4 gap-8">
                     <li>
                         <span class="tech-name">React</span>
                         <img src="assets/logos/React-Dark.svg" alt="react">
@@ -93,9 +119,6 @@
                 </ul>
             </div>
         </div>
-        <div class="container-img">
-            <img src="assets/images/file%20(1).png" alt="file (1)">
-        </div>
     </div>
 </section>
 
@@ -110,9 +133,9 @@
             <p>Experienced teacher with a strong interest in technology and development.<br>
                 Proficient in programming and coding with a focus on<br> front-end
                 development and design.
-            <br>
-            <br>
-            I'm currently learning React/Next.js together with Tailwind CSS.
+                <br>
+                <br>
+                I'm currently learning React/Next.js together with Tailwind CSS.
             </p>
         </div>
     </div>
@@ -122,57 +145,92 @@
     <h1>Projects</h1>
     <img class="github" src="https://ghchart.rshah.org/TomChrister" alt="GitHub Contributions Chart"/>
     <p class="chart">TomChrister@GitHub Contributions</p>
-    <div class="projects-container">
-        <div class="card-container">
+    <div class="grid grid-cols-1 justify-items-center sm:grid-cols-2 lg:grid-cols-3 place-items-center lg:px-4">
+        <div class="card-container px-5 py-8 gap-5">
             <span class="project-title">Techpulse</span>
-            <img src="assets/images/techpulse.png" alt="techpulse">
-            <div class="card-text">
+            <img src="assets/images/techpulse.png" alt="techpulse"
+                 class="h-40 w-[442px] rounded-md lg:object-fill lg:h-52">
+            <div class="card-text gap-5">
                 <p>On this website you are able to search, filter and share articles.
-                As a logged in user you are also able to create, edit and delete articles
-                with API requests. Login details are provided on the login page, feel free
-                to test out the page.
-                <br>
-                <br>
+                    As a logged-in user you are also able to create, edit and delete articles
+                    with API requests. Login details are provided on the login page, feel free
+                    to test out the page.
+                    <br>
+                    <br>
                 </p>
                 <p>Technology used: HTML, CSS and JavaScript</p>
                 <div class="buttons">
-                    <a href="https://techpulse-blogproject.vercel.app/" target="_blank"><button class="btn-hover">Live sites</button></a>
-                    <a href="https://github.com/TomChrister/blog-project" target="_blank"><button class="btn-hover">Repo</button></a>
+                    <a href="https://techpulse-blogproject.vercel.app/" target="_blank">
+                        <button class="btn-hover">Live site</button>
+                    </a>
+                    <a href="https://github.com/TomChrister/blog-project" target="_blank">
+                        <button class="btn-hover">Repo</button>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="card-container">
+        <div class="card-container px-5 py-8 gap-5">
+            <span class="project-title">Bidwise</span>
+            <img src="assets/images/Bidwise.png" alt="Bidwise" class="h-40 w-[442px] rounded-md lg:object-fill lg:h-52">
+            <div class="card-text gap-5">
+                <p>The auction website allows users to list items, bid on others' listings, and manage credits. New
+                    users start with 1000 credits, which increase through sales and decrease with purchases. Registered
+                    users can create, view, and search listings.
+                    <br>
+                </p>
+                <p>Technology used: HTML, Tailwind and JavaScript</p>
+                <div class="buttons">
+                    <a href="https://bidwise-auction.vercel.app/" target="_blank">
+                        <button class="btn-hover">Live site</button>
+                    </a>
+                    <a href="https://github.com/TomChrister/auction-website" target="_blank">
+                        <button class="btn-hover">Repo</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="card-container px-5 py-8 gap-5">
             <span class="project-title">Square Eyes</span>
-            <img src="assets/images/square-eyes.png" alt="square-eyes">
-            <div class="card-text">
+            <img src="assets/images/square-eyes.png" alt="square-eyes"
+                 class="h-40 w-[442px] rounded-md lg:object-fill lg:h-52">
+            <div class="card-text gap-5">
                 <p>A website for buying movies. Fetching an API and it's data. Key functions are
                     filtering movies by genre, adding and removing movies to the cart. A checkout process
                     that takes your selected movies and gives you
                     a confirmation at the end.
-                <br>
-                <br>
+                    <br>
+                    <br>
                 </p>
                 <p>Technology used: HTML, CSS and JavaScript</p>
                 <div class="buttons">
-                    <a href="https://square-eyes-live.vercel.app/" target="_blank"><button class="btn-hover">Live sites</button></a>
-                    <a href="https://github.com/TomChrister/square-eyes" target="_blank"><button class="btn-hover">Repo</button></a>
+                    <a href="https://square-eyes-live.vercel.app/" target="_blank">
+                        <button class="btn-hover">Live site</button>
+                    </a>
+                    <a href="https://github.com/TomChrister/square-eyes" target="_blank">
+                        <button class="btn-hover">Repo</button>
+                    </a>
                 </div>
             </div>
         </div>
-        <div class="card-container">
+        <div class="card-container px-5 py-8 gap-5">
             <span class="project-title">Lingua</span>
-            <img src="assets/images/learning-online.png" alt="lingua">
-            <div class="card-text">
+            <img src="assets/images/learning-online.png" alt="lingua"
+                 class="h-40 w-[442px] rounded-md lg:object-fill lg:h-52">
+            <div class="card-text gap-5">
                 <p>A clean and simple landing page for a website where you can hire teachers for
                     learning languages online. The page is created using React and Next.js, and Tailwind
                     for styling. Still in development.
                     <br>
                     <br>
-                    </p>
+                </p>
                 <p>Technology used: React, Next.js and Tailwind</p>
                 <div class="buttons">
-                    <a href="https://lingua-online.vercel.app/" target="_blank"><button class="btn-hover">Live sites</button></a>
-                    <a href="https://github.com/TomChrister/learning-online" target="_blank"><button class="btn-hover">Repo</button></a>
+                    <a href="https://lingua-online.vercel.app/" target="_blank">
+                        <button class="btn-hover">Live site</button>
+                    </a>
+                    <a href="https://github.com/TomChrister/learning-online" target="_blank">
+                        <button class="btn-hover">Repo</button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -184,7 +242,7 @@
         <div class="content">
             <div class="contact-title">
                 <p>Contact</p>
-                <h3>Hit me up and lets work together!</h3>
+                <h3>Hit me up and let's work together!</h3>
             </div>
         </div>
         <div class="contact-icons">
@@ -196,7 +254,8 @@
             </div>
             <div class="contact-box">
                 <h3>Mail</h3>
-                <p><i class="fa-regular fa-envelope"></i> <a href="mailto:tomchrister.dev@gmail.com">tomchrister.dev@gmail.com</a></p>
+                <p><i class="fa-regular fa-envelope"></i> <a href="mailto:tomchrister.dev@gmail.com">tomchrister.dev@gmail.com</a>
+                </p>
             </div>
         </div>
     </div>
@@ -209,11 +268,19 @@
         </div>
         <div class="footer-icons">
             <a href="https://www.linkedin.com/in/tom-christer-sch%C3%B6%C3%B6n-bb8ab1226/" target="_blank"><span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-linkedin"><path d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="tabler-icon tabler-icon-brand-linkedin"><path
+                            d="M4 4m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"></path><path
+                            d="M8 11l0 5"></path><path d="M8 8l0 .01"></path><path d="M12 16l0 -5"></path><path
+                            d="M16 16v-3a2 2 0 0 0 -4 0"></path></svg>
                 </span>
             </a>
             <a href="https://github.com/TomChrister" target="_blank"><span>
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="tabler-icon tabler-icon-brand-github"><path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none"
+                         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                         class="tabler-icon tabler-icon-brand-github"><path
+                            d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5"></path></svg>
                 </span>
             </a>
         </div>
